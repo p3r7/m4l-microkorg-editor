@@ -1,6 +1,14 @@
 # m4l-microkorg-editor
 
-Ableton microKORG editor w/ bidirectional editing
+Ableton microKORG editor w/ bidirectional editing.
+
+
+## Usage
+
+Set the value of `MIDI > LOCAL` to `EXTERNAL` or `AUTO`. The default value (`ON`) may cause glitches in the SysEx communication.
+
+Use a quality MIDI interface, not a 5$ no-name one.
+Cheap interfaces will scramble (if not filter entirely) SysEx and NRPN communication.
 
 
 ## Resources
