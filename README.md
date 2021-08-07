@@ -2,6 +2,8 @@
 
 Ableton microKORG editor w/ bidirectional editing.
 
+![screenshot](./screenshot.png)
+
 
 ## Usage
 
