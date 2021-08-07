@@ -13,6 +13,12 @@ Cheap interfaces will scramble (if not filter entirely) SysEx and NRPN communica
 If you use a MIDI channel other than 1, modify the value of the `CHAN.` control in the lower right corner of the device. Ableton is smart enough to override the channel value for standard midi messages (e.g. when using the `Ext. Instrument` device) but will have to clue on how to do so for the proprietary SysEx messages.
 
 
+## Next steps
+
+- [ ] Vocoder support
+- [ ] allow editing RO parameters (by forcing a complete SysEx dump onto the microKORG)
+
+
 ## Resources
 
 SysEx parsing implemented using the [official microKORG MIDI implementation specs](http://i.korg.com/uploads/Support/MK1_633652915168960000.pdf).
