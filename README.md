@@ -5,10 +5,12 @@ Ableton microKORG editor w/ bidirectional editing.
 
 ## Usage
 
-Set the value of `MIDI > LOCAL` to `EXTERNAL` or `AUTO`. The default value (`ON`) may cause glitches in the SysEx communication.
+On the microKORG, set the value of `MIDI > LOCAL` to `EXTERNAL` or `AUTO`. The default value (`ON`) may cause glitches in the SysEx communication.
 
 Use a quality MIDI interface, not a 5$ no-name one.
 Cheap interfaces will scramble (if not filter entirely) SysEx and NRPN communication.
+
+If you use a MIDI channel other than 1, modify the value of the `CHAN.` control in the lower right corner of the device. Ableton is smart enough to override the channel value for standard midi messages (e.g. when using the `Ext. Instrument` device) but will have to clue on how to do so for the proprietary SysEx messages.
 
 
 ## Resources
